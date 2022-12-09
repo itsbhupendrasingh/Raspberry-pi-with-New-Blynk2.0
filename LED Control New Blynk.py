@@ -1,4 +1,6 @@
-
+"""
+This Code is belong to SME Dehraun. for any query write to schematicslab@gmail.com
+"""
 
 import BlynkLib
 import RPi.GPIO as GPIO

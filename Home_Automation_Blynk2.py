@@ -10,8 +10,8 @@ from BlynkTimer import BlynkTimer
 
 device1 = 14
 device2 = 15
-device3 = 17
-device4 = 18
+device3 = 23
+device4 = 24
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(device1, GPIO.OUT)
 GPIO.setup(device2, GPIO.OUT)

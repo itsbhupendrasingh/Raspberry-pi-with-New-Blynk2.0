@@ -1,5 +1,5 @@
 """
-This code i Belogs to SME Dehradun Firm. For any query, mail us at schematicslab@gmail.com 
+This code is Belogs to SME Dehradun Firm. For any query, mail us at schematicslab@gmail.com 
 """
 
 import BlynkLib

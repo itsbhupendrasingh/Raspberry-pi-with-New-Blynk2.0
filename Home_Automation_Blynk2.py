@@ -17,6 +17,10 @@ GPIO.setup(device1, GPIO.OUT)
 GPIO.setup(device2, GPIO.OUT)
 GPIO.setup(device3, GPIO.OUT)
 GPIO.setup(device4, GPIO.OUT)
+GPIO.output(device1, GPIO.LOW)
+GPIO.output(device2, GPIO.LOW)
+GPIO.output(device3, GPIO.LOW)
+GPIO.output(device4, GPIO.LOW)
 
 # Initialize Blynk
 blynk = BlynkLib.Blynk('hWRSpWldCWv-ha5aqmasPkbObCIvxNGX')

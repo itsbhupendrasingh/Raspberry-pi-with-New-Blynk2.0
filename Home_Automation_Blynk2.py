@@ -50,10 +50,10 @@ def v2_write_handler(value):
 #    global device_switch
     if int(value[0]) is not 0:
         GPIO.output(device2, GPIO.HIGH)
-        print('Device2 HIGH')
+        print('Device3 HIGH')
     else:
         GPIO.output(device2, GPIO.LOW)
-        print('Device2 LOW')
+        print('Device3 LOW')
 
 # Led control through V3 virtual pin
 @blynk.on("V3")
@@ -61,10 +61,10 @@ def v3_write_handler(value):
 #    global device_switch
     if int(value[0]) is not 0:
         GPIO.output(device3, GPIO.HIGH)
-        print('Device3 HIGH')
+        print('Device4 HIGH')
     else:
         GPIO.output(device1, GPIO.LOW)
-        print('Device3 LOW')
+        print('Device4 LOW')
 
 #function to sync the data from virtual pins
 @blynk.on("connected")
